@@ -1,0 +1,17 @@
+Playwright execution results
+===========================
+
+Scenario:
+- Navigate to https://www.epam.com/
+- Select "Services" from the header menu
+- Click "Explore Our Client Work"
+- Verify that "Client Work" is visible on the page
+
+Execution status: PASS
+Browser/session cleanup: PASS (browser closed after validation)
+
+Notes:
+- EPAM homepage loaded successfully.
+- The Services menu and Explore Our Client Work link were present.
+- Verified the Client Work text is visible on the destination page.
+- Console contained unrelated third-party/CSP errors from the site, but they did not block the scenario.
